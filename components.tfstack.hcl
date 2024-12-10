@@ -21,5 +21,6 @@ component "server" {
 
   providers = {
       null = provider.null.this
+      terraform = provider.terraform.this
   }
 }
