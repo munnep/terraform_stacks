@@ -6,7 +6,7 @@ component "network" {
   }
 
   providers = {
-      null = provider.null_resource.this
+      null = provider.null.this
   }
 }
 
@@ -19,6 +19,6 @@ component "server" {
   }
 
   providers = {
-      null = provider.null_resource.this
+      null = provider.null.this
   }
 }
