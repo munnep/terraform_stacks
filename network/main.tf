@@ -14,3 +14,5 @@ resource "null_resource" "router" {
 }
 
 
+resource "null_resource" "gateway" {
+}
