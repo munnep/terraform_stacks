@@ -16,7 +16,7 @@ component "server" {
   inputs = {
     server_name = var.server_name
     prefix = var.prefix
-    network_name = component.network.outputs.network_name
+    network_name = component.network.network_name
   }
 
   providers = {
