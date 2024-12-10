@@ -3,6 +3,10 @@ required_providers {
       source = "hashicorp/null"
       version = "3.2.3"
     }
+    terraform = {
+      source = "hashicorp/terraform"
+      version = ">1.10"
+    }
 }
 
 # Setting "this" as the alias name
