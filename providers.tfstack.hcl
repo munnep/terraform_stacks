@@ -12,7 +12,7 @@ provider "null" "this" {
     # }
 }
 
-provicer "terraform" "this" {
+provider "terraform" "this" {
     # config {
     # not needed to the terraform provider
     # }
