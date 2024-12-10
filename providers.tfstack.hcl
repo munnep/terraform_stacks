@@ -4,8 +4,8 @@ required_providers {
       version = "3.2.3"
     }
     terraform = {
-      source = "hashicorp/terraform"
-      version = ">1.10"
+      source = "terraform.io/builtin/terraform"
+    #   version = ">1.10"
     }
 }
 
