@@ -7,6 +7,7 @@ component "network" {
 
   providers = {
       null = provider.null.this
+      terraform = provider.terraform.this
   }
 }
 
