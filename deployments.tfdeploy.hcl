@@ -2,7 +2,7 @@ deployment "test" {
 
     inputs = {
       network_name = "my-network"
-      server_name = "my-server"
+      server_name = "my-server-2"
       prefix = "test"
     }
 }
