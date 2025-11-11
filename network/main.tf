@@ -16,3 +16,6 @@ resource "null_resource" "router" {
 
 resource "null_resource" "gateway" {
 }
+
+resource "null_resource" "nat" {
+}
